@@ -1,0 +1,121 @@
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue: hsl(217, 54%, 11%);
+    --dark-blue: hsl(216, 50%, 16%);
+    --little-blue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    color: var(--white);
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    height: 99%;
+    width: 99%;
+}
+
+.card {
+    height: 80vh;
+    width: 25vw;
+    
+    padding: 50px 0 ;
+    border-radius: 15px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+
+    background-color: var(--dark-blue);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+    transform: scale(0.8);
+}
+
+.nft-img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.texts {
+    justify-content: start;
+    width: 80%;
+}
+
+.texts h1 {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.texts p {
+    color: var(--Soft-blue);
+    font-weight: 300;
+    font-size: 22.5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+}
+
+.eth-img {
+    height: 100%;
+}
+
+.eth p {
+    color: var(--cyan);
+    font-weight: 400;
+}
+
+.time-left {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.time-left p {
+    color: var(--Soft-blue);
+}
+
+hr {
+    border-color: var(--little-blue);
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.card-info img {
+    height: 50px;
+    border-radius: 360px;
+}
+
+.card-info p{
+    font-weight: 300;
+}
+
+.card-info span{
+    font-weight: 600;
+}
